@@ -15,7 +15,7 @@ def load_lottie(filepath):
 
 
 def load_contact():
-    lottie_contact = load_lottie("C:\\Users\\admin\\Downloads\\Animation - 1713080652663.json")
+    lottie_contact = load_lottie("Home-image/Animation - 1713080652663.json")
     return lottie_contact
 
 def display_about_me(lottie_image):
@@ -285,7 +285,7 @@ def display_home():
     
 
 def load_data():
-    lottie_image = load_lottie("C:\\Users\\admin\\Downloads\\Animation - 1707578638389.json")
+    lottie_image = load_lottie("Home-image/Animation - 1707578638389.json")
     return lottie_image
 
 def display_page():
