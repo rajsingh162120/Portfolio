@@ -208,7 +208,7 @@ def display_experience():
         {
             "name": "Hackwave: National Level Hackathon -> 6th - 7th April 2024 - 24Hr",
             "college": "A.P. Shah Engineering College",
-            "images": ["C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\codedev.jpg", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\top5.jpg", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\apshah.jpg", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\3.jpg", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\ApShah_certficate.jpg","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\hackwave-id.jpeg"],
+            "images": ["Experience-image/codedev.jpg", "Experience-image/top5.jpg", "Experience-image/apshah.jpg", "Experience-image/3.jpg", "Experience-image/ApShah_certficate.jpg","Experience-image/hackwave-id.jpeg"],
             "description": "Engaged in an offline hackathon hosted at Ap Shah Engineering College, focusing on the development of a predictive model for smart grid management. Our team successfully achieved a precision rate of 99.7% in forecasting power grid trends. Additionally, we created a user-friendly website enabling input parameters for wind, temperature, and air pressure to estimate power generation. Integration of a Power BI dashboard facilitated analysis of historical data over the past five years.",
             "position": "Secured a Top 5 position in the Final Round",
             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment",
@@ -219,7 +219,7 @@ def display_experience():
         {
             "name": "Hacksparrow: National Level Hackathon -> 22nd to 24th March 2024 - 36Hr",
             "college": "Terna Engineering College",
-            "images": ["C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\T-14.jpg","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\fusion.jpg", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\canva.jpg","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\55 (1).png", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\video.jpg","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\coder.jpg"],  
+            "images": ["Experience-image/T-14.jpg","Experience-image/fusion.jpg", "Experience-image/canva.jpg","Experience-image/55 (1).png", "Experience-image/video.jpg","Experience-image/coder.jpg"],  
             "description": "Engaged in an offline hackathon hosted at Terna Engineering College, where our team attained a notable Top 8 position among a pool of talented participants. Collaborated closely to develop 'Fusion Flow,' an innovative collaborative workspace platform. Leveraged cutting-edge technologies including Next.js, TypeScript, Shadcn/ui, Fabric, Express.js, Node.js, Socket.io, and Liveblock, fostering a seamless user experience. Grateful for the enriching opportunity to explore emerging technologies and engage in collaborative projects.",
             "position": "Secured a Top 8 position in the Final Round",
             "github": "https://github.com/UtkarshTiwari1750/Hacksparrow",
@@ -230,7 +230,7 @@ def display_experience():
         {
             "name": "Hack It Out : National Level Hackathon -> 29th Oct to 5th Nov 2023 ",
             "college": "IIT Patna",
-            "images": ["C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\iit.png","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\iit-codedev.png", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\issue.png","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\description.png", "C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\IIT-Patna-certificate.jpg","C:\\Users\\admin\\Downloads\\Portfolio\\Experience-image\\solution.png"],  
+            "images": ["Experience-image/iit.png","Experience-image/iit-codedev.png", "Experience-image/issue.png","Experience-image/description.png", "Experience-image/IIT-Patna-certificate.jpg","Experience-image/solution.png"],  
             "description": "Participated in an online hackathon hosted by IIT-Patna, where our team achieved a notable Top 15 position among a pool of talented participants. Collaborated closely to develop a healthcare website providing comprehensive information for patients and doctors, facilitating informed decision-making. Utilized cutting-edge technologies to deliver a seamless user experience. Grateful for the opportunity to engage in collaborative projects and explore emerging technologies.",
             "position": "Secured a Top 15 position in the Final Round",
             "github": "https://github.com/UtkarshTiwari1750/Hack_it_Out",
