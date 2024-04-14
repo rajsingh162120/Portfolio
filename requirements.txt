@@ -1,11 +1,7 @@
-# Specify the Python version if necessary
-python>=3.8
-
-# Specify a Streamlit version compatible with your Python version
-streamlit==0.88.0
-
-# Remove the streamlit-lottie dependency or specify a compatible version if available
-# streamlit-lottie==0.10.0
-
-Pillow==8.4.0
+streamlit==1.18.1
+streamlit-option-menu==0.3.3
+streamlit-lottie==0.3.0
+Pillow==9.3.0
+pandas==1.5.3
+numpy==1.23.5
 
