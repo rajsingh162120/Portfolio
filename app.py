@@ -31,7 +31,7 @@ def display_about_me(lottie_image):
     with st.container():
         left,right = st.columns([2,2])
         with  right:
-            st_lottie(lottie_image,width="100%", height=740)
+            st_lottie(lottie_image,width="100%", height=800)
         with left:
             st.write('##')
             st.markdown('<hr class="rainbow-divider">', unsafe_allow_html=True)
