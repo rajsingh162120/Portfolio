@@ -4,6 +4,7 @@ from streamlit_lottie import st_lottie
 import json
 from PIL import Image
 
+@st.cache_resource
 def load_lottie(filepath):
     try:
         with open(filepath, 'r') as file:
@@ -274,16 +275,12 @@ def display_experience():
         st.markdown('<hr class="rainbow-divider">', unsafe_allow_html=True)
 
 
-
-  
-
-    
 def display_home():
     st.write("##")
     st.subheader("Hey Guys 👋")
     st.title("My Portfolio website")
     
-
+@st.cache_resource
 def load_data():
     lottie_image = load_lottie("Home-image/Animation - 1707578638389.json")
     return lottie_image
