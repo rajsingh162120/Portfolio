@@ -31,7 +31,7 @@ def display_about_me(lottie_image):
     with st.container():
         left,right = st.columns([2,2])
         with  right:
-            st_lottie(lottie_image,width=750)
+            st_lottie(lottie_image,width="100%", height=740)
         with left:
             st.write('##')
             st.markdown('<hr class="rainbow-divider">', unsafe_allow_html=True)
@@ -68,11 +68,11 @@ def display_about_me(lottie_image):
     # Education detail
     st.subheader("Education Detail")
     engg, college , school = st.columns(3)
-    image_width = [450,440,450]
-    image_height = [200,200,200]
+    image_width = ["100%","100%","100%"]
+    image_height = "200px"  # Adjust the height as needed
 
     with engg:
-        st.markdown(f'<img src="https://www.tcetmumbai.in/images/sliders/slider-2.webp" width="{image_width[0]}" height="{image_height[0]}">', unsafe_allow_html=True)
+        st.markdown(f'<img src="https://www.tcetmumbai.in/images/sliders/slider-2.webp" width="{image_width[0]}" height="{image_height}" style="object-fit: cover;">', unsafe_allow_html=True)
         st.write("##")
         if st.button("TCET(Engineering College)"):
             st.session_state.show_tcet_details = not st.session_state.show_tcet_details
@@ -89,7 +89,7 @@ def display_about_me(lottie_image):
                 st.subheader("")
 
     with college:
-        st.markdown(f'<img src="https://www.adarsh-educationsociety.com/images/about-2.jpg" width="{image_width[1]}" height="{image_height[1]}">', unsafe_allow_html=True)
+        st.markdown(f'<img src="https://www.adarsh-educationsociety.com/images/about-2.jpg" width="{image_width[1]}" height="{image_height}" style="object-fit: cover;">', unsafe_allow_html=True)
         st.write("##")
         if st.button("Adarsh Eduction Society(college)"):
             st.session_state.show_kapol_details = not st.session_state.show_kapol_details
@@ -107,7 +107,7 @@ def display_about_me(lottie_image):
                 st.subheader("")
                 
     with school:
-        st.markdown(f'<img src="Home-image/jbs.jpeg" width="{image_width[2]}" height="{image_height[2]}" />', unsafe_allow_html=True)     
+        st.markdown(f'<img src="https://raw.githubusercontent.com/rajsingh162120/Portfolio/master/Home-image/jbs.jpeg" width="{image_width[2]}" height="{image_height}" style="object-fit: cover;">', unsafe_allow_html=True)     
         st.write("##")
         if st.button("JBS high school"):
             st.session_state.show_jbs_details = not st.session_state.show_jbs_details
