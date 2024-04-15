@@ -107,7 +107,7 @@ def display_about_me(lottie_image):
                 st.subheader("")
                 
     with school:
-        st.markdown(f'<img src="https://lh5.googleusercontent.com/p/AF1QipMDtIkvoC8lHhRQhvzoDf4Qf8ipToBk6-EhI3w5=w300-k-no" width="{image_width[2]}" height="{image_height[2]}">', unsafe_allow_html=True)
+        st.markdown(f'<img src="./Home-image/jbs.jpeg" width="{image_width[2]}" />')" height="{image_height[2]}">', unsafe_allow_html=True)
         st.write("##")
         if st.button("JBS high school"):
             st.session_state.show_jbs_details = not st.session_state.show_jbs_details
