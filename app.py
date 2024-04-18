@@ -134,20 +134,20 @@ def display_projects():
             "name": "Smart-grid-prediction using Machine learning",
             "images": ["Project-image/smart-grid-1.png", "Project-image/smart-grid-2.png"],  # List of paths to your project images
             "description": "Our team developed a sophisticated Smart Grid prediction model using machine learning algorithms such as Random Forest Regression and Gradient Boosting. This model effectively predicts grid behavior, contributing to optimized energy management and resource allocation. We also make a website for the user input of air pressure , Temperature and wind speed to get the power generated . Also , we have integrated the power bi dashboard for the analysis of last 5 year data.",
-            "link": None,
+            "Linkedin": "https://www.linkedin.com/posts/raj01singh_hackathon-smartgrid-machinelearning-activity-7186431027311951873-zO7-?utm_source=share&utm_medium=member_android",
             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment"
         },
         {
             "name": "World-Cup-2022-dashboard",
             "images": ["Project-image/world-1.png", "Project-image/world-2.png"],  # List of paths to your project images
             "description": "Check out my Power BI dashboard for the thrilling 2022 T20 World Cup cricket analysis! 🌍🏆 Dive into dynamic insights through four dashboards covering overview, batsman stats, bowler stats, and more.",
-            "link": "https://www.linkedin.com/posts/raj01singh_netflixanalysis-powerbi-dataanalysis-activity-7145809862436859905-irqN?utm_source=share&utm_medium=member_desktop"
+            "linkedin": "https://www.linkedin.com/posts/raj01singh_netflixanalysis-powerbi-dataanalysis-activity-7145809862436859905-irqN?utm_source=share&utm_medium=member_desktop"
         },
         {
             "name": "Netflix-analysis",
             "images": ["Project-image/web01.png", "Project-image/web1.png"],  # List of paths to your project images
             "description": "Exploring the World of Netflix: A Data Visualization Journey 🌐 Discover country-wise variations in Netflix content, explore ratings across genres and directors, and analyze the distribution of movies and shows. Dive into the specifics of Netflix shows, from release years to top directors and cast members.",
-            "link": "https://net-flix.streamlit.app/",
+            "website": "https://net-flix.streamlit.app/",
             "linkedin": "https://www.linkedin.com/posts/raj01singh_netflix-datavisualization-streamlit-activity-7154436806883651584-DxTX?utm_source=share&utm_medium=member_desktop"
         },
         {
@@ -168,7 +168,7 @@ def display_projects():
             st.image(project['images'][1], use_column_width=True)
         st.write(project['description'])
         if 'link' in project:
-            st.markdown(f"[Explore the Website]({project['link']})")
+            st.markdown(f"[Explore the Website]({project['website']})")
         if 'github' in project:
             st.markdown(f"[Github]({project['github']})")
         if 'linkedin' in project:
