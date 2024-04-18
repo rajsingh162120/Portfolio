@@ -167,7 +167,7 @@ def display_projects():
         with col2:
             st.image(project['images'][1], use_column_width=True)
         st.write(project['description'])
-        if 'link' in project:
+        if 'website' in project:
             st.markdown(f"[Explore the Website]({project['website']})")
         if 'github' in project:
             st.markdown(f"[Github]({project['github']})")
