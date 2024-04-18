@@ -135,7 +135,7 @@ def display_projects():
             "images": ["Project-image/smart-grid-1.png", "Project-image/smart-grid-2.png"],  # List of paths to your project images
             "description": "Our team developed a sophisticated Smart Grid prediction model using machine learning algorithms such as Random Forest Regression and Gradient Boosting. This model effectively predicts grid behavior, contributing to optimized energy management and resource allocation. We also make a website for the user input of air pressure , Temperature and wind speed to get the power generated . Also , we have integrated the power bi dashboard for the analysis of last 5 year data.",
             "Linkedin": "https://www.linkedin.com/posts/raj01singh_hackathon-smartgrid-machinelearning-activity-7186431027311951873-zO7-?utm_source=share&utm_medium=member_android",
-            "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment"
+             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment"
         },
         {
             "name": "World-Cup-2022-dashboard",
@@ -215,7 +215,7 @@ def display_experience():
             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment",
             "website": None,
             "info": None,
-            "linkedin": None
+            "linkedin": "https://www.linkedin.com/posts/raj01singh_hackathon-smartgrid-machinelearning-activity-7186431027311951873-zO7-?utm_source=share&utm_medium=member_android"
         },
         {
             "name": "Hacksparrow: National Level Hackathon -> 22nd to 24th March 2024 - 36Hr",
