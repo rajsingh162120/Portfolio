@@ -134,7 +134,7 @@ def display_projects():
             "name": "Smart-grid-prediction using Machine learning",
             "images": ["Project-image/smart-grid-1.png", "Project-image/smart-grid-2.png"],  # List of paths to your project images
             "description": "Our team developed a sophisticated Smart Grid prediction model using machine learning algorithms such as Random Forest Regression and Gradient Boosting. This model effectively predicts grid behavior, contributing to optimized energy management and resource allocation. We also make a website for the user input of air pressure , Temperature and wind speed to get the power generated . Also , we have integrated the power bi dashboard for the analysis of last 5 year data.",
-            "link": "https://smart-grid.streamlit.app/",
+            "link": None,
             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment"
         },
         {
@@ -213,7 +213,7 @@ def display_experience():
             "description": "Engaged in an offline hackathon hosted at Ap Shah Engineering College, focusing on the development of a predictive model for smart grid management. Our team successfully achieved a precision rate of 99.7% in forecasting power grid trends. Additionally, we created a user-friendly website enabling input parameters for wind, temperature, and air pressure to estimate power generation. Integration of a Power BI dashboard facilitated analysis of historical data over the past five years.",
             "position": "Secured a Top 5 position in the Final Round",
             "github": "https://github.com/UtkarshTiwari1750/9_Sustainability_and_Environment",
-            "website": "https://smart-grid.streamlit.app/",
+            "website": None,
             "info": None,
             "linkedin": None
         },
