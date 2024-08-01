@@ -142,7 +142,7 @@ def display_projects():
             "name": "World-Cup-2022-dashboard",
             "images": ["Project-image/world-1.png", "Project-image/world-2.png"],  # List of paths to your project images
             "description": "Check out my Power BI dashboard for the thrilling 2022 T20 World Cup cricket analysis! 🌍🏆 Dive into dynamic insights through four dashboards covering overview, batsman stats, bowler stats, and more.",
-            "linkedin": "https://www.linkedin.com/posts/raj01singh_netflixanalysis-powerbi-dataanalysis-activity-7145809862436859905-irqN?utm_source=share&utm_medium=member_desktop"
+            "linkedin": "https://www.linkedin.com/posts/raj01singh_t20worldcup2022-cricketanalysis-powerbi-activity-7156646283162664960-jAl7?utm_source=share&utm_medium=member_android"
         },
         {
             "name": "Netflix-analysis",
